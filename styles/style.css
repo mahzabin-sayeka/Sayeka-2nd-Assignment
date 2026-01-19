@@ -173,7 +173,49 @@ hr{
     font-weight: 400;
     opacity: 80%;
 }
-
+.techwave{
+    background-color: #230E3D;
+}
+.techwave h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 120px;
+    text-align: center;
+}
+.tech-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.tech-card-1{
+    grid-row: span 2;
+}
+.tech-card-2, .tech-card-3, .tech-card-4{
+    grid-column: span 2;
+}
+.ab{
+    
+    background-color: rgba(53, 17, 101, 0.4);
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    border-radius: 20px;
+    
+}
+.ab h4{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.ab p{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 80%;
+    line-height: 24px;
+}
 
 
 
@@ -213,5 +255,10 @@ hr{
         margin-left: 10px;
         margin-right: 10px;
     }
+    .tech-container{
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 
+}
 }

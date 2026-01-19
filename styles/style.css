@@ -119,6 +119,12 @@ nav>span{
 .podcast{
     background-color: #1A0B2E;
     margin: 0 auto;
+    
+}
+.podcast-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
 }
 .podcast-container{
      max-width: 1200px;
@@ -127,6 +133,8 @@ nav>span{
 }
 .podcast h1{
     font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 16px;
 }
 .podcast-container p{
     margin: 0 auto;
@@ -138,6 +146,32 @@ nav>span{
 }
 .podcast-p2{
     padding-top: 30px;
+    padding-bottom: 80px;
+}
+hr{
+    max-width: 1200px;
+    margin-bottom: 80px;
+    
+    opacity: 10%;
+}
+.podcast-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.podcast-head{
+    text-align: center;
+}
+.podcast-card{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+}
+.podcast-card-p{
+    padding-top: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 80%;
 }
 
 
@@ -170,5 +204,14 @@ nav>span{
         max-width: 576px;
     }
 
+
+    .podcast-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    .podcast-box{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
 }

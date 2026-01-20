@@ -216,7 +216,7 @@ hr{
 .ab p{
     font-size: 1rem;
     font-weight: 400;
-    opacity: 80%;
+    opacity: 60%;
     line-height: 24px;
 }
 .youtube{
@@ -261,7 +261,7 @@ hr{
 .youtube-link p{
     font-size: 1rem;
     font-weight: 400;
-    opacity: 80%;
+    opacity: 60%;
     line-height: 25px;
     margin-left: 24px;
     margin-right: 24px;
@@ -305,6 +305,30 @@ hr{
         transform: rotate(360deg);
     }
 }
+
+.alex-grid{
+    display: flex;
+    gap: 24px;
+    background-color: rgba(53, 17, 101, 0.4);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding: 40px;
+}
+.host-bio h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.host-bio p{
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 60%;
+    line-height: 25px;
+    padding-bottom: 16px;
+}
+
 
 
 
@@ -361,6 +385,14 @@ hr{
     margin: 0 auto;
    
     grid-template-columns: repeat(1,1fr);
+}
+
+.alex-grid{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 }

@@ -181,6 +181,7 @@ hr{
     font-weight: bold;
     padding-top: 120px;
     text-align: center;
+    padding-bottom: 40px;
 }
 .tech-container{
     max-width: 1200px;
@@ -188,6 +189,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+    padding-bottom: 120px;
 }
 .tech-card-1{
     grid-row: span 2;
@@ -198,10 +200,11 @@ hr{
 .ab{
     
     background-color: rgba(53, 17, 101, 0.4);
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px;
+    border: 40px;
     text-align: left;
-    border-radius: 20px;
+    border-radius: 40px;
+    align-content: center;
     
 }
 .ab h4{
@@ -260,5 +263,12 @@ hr{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 
+}
+.tech-container{
+     margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
 }
 }

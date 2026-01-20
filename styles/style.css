@@ -421,9 +421,9 @@ footer .copyright{
     
    
     grid-template-columns: repeat(1,1fr);
-    max-width: 576;
-    margin-left: 50px;
-    justify-content: center;
+    
+    
+    justify-items: center;
     align-items: center;
 }
 
@@ -451,4 +451,32 @@ footer .copyright{
     left: 43.5%;
 }
 
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .circle{
+   width: 40%;
+}
+.microphone{
+    width: 13%;
+    top: 52%;
+    left: 43.5%;
+}
+.new-ch{
+    
+    top: 35%;
+    left: 62%;}
+
+    .youtube-container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1,1fr);}
+    .alex-grid{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;}
 }

@@ -220,7 +220,7 @@ hr{
     line-height: 24px;
 }
 .youtube{
-    width: 100%;
+    
     background-color: #1A0B2E;
 
 }
@@ -418,9 +418,13 @@ footer .copyright{
 
 .youtube-container{
     display: grid;
-    margin: 0 auto;
+    
    
     grid-template-columns: repeat(1,1fr);
+    max-width: 576;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .alex-grid{
@@ -437,6 +441,14 @@ footer .copyright{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.circle{
+   width: 40%;
+}
+.microphone{
+    width: 13%;
+    top: 52%;
+    left: 43.5%;
 }
 
 }
